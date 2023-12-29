@@ -479,6 +479,14 @@ img {
 
 /* Footer Subscribe Form */
 
+.subscribe-title {
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
 .footer-input-plus-button {
   display: flex;
   gap: 24px;
@@ -487,11 +495,17 @@ img {
 .footer-input {
   width: 264px;
   height: 40px;
-  border-color: #fff;
+  line-height: 2;
   background-color: transparent;
   outline: 0;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ffffff;
+  border-color: #fff;
+  border-radius: 4px;
   color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
 }
 
 .footer-input::placeholder {
